@@ -1,0 +1,83 @@
+E:\PDG27\g4\hrManage\hrManage\bin\hrManage.dll.config
+E:\PDG27\g4\hrManage\hrManage\bin\hrManage.dll
+E:\PDG27\g4\hrManage\hrManage\bin\hrManage.pdb
+E:\PDG27\g4\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+E:\PDG27\g4\hrManage\hrManage\obj\Debug\hrManage.dll
+E:\PDG27\g4\hrManage\hrManage\obj\Debug\hrManage.pdb
+J:\hrManage\hrManage\bin\hrManage.dll.config
+J:\hrManage\hrManage\bin\hrManage.dll
+J:\hrManage\hrManage\bin\hrManage.pdb
+J:\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+J:\hrManage\hrManage\obj\Debug\hrManage.dll
+J:\hrManage\hrManage\obj\Debug\hrManage.pdb
+H:\Ealius\hrManage\hrManage\bin\hrManage.dll.config
+H:\Ealius\hrManage\hrManage\bin\hrManage.dll
+H:\Ealius\hrManage\hrManage\bin\hrManage.pdb
+H:\Ealius\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+H:\Ealius\hrManage\hrManage\obj\Debug\hrManage.dll
+H:\Ealius\hrManage\hrManage\obj\Debug\hrManage.pdb
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.dll.config
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.dll
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.pdb
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.csproj.CoreCompileInputs.cache
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.dll
+E:\ICT projects\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.pdb
+G:\PGD in ICT\New folder\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.dll.config
+G:\PGD in ICT\New folder\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.dll
+G:\PGD in ICT\New folder\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.pdb
+G:\PGD in ICT\New folder\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+G:\PGD in ICT\New folder\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.dll
+G:\PGD in ICT\New folder\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.pdb
+G:\PGD in ICT\Master copy of project HR management\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.dll.config
+G:\PGD in ICT\Master copy of project HR management\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.dll
+G:\PGD in ICT\Master copy of project HR management\project hr management\hrm27112017\hrManage\hrManage\bin\hrManage.pdb
+G:\PGD in ICT\Master copy of project HR management\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+G:\PGD in ICT\Master copy of project HR management\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.dll
+G:\PGD in ICT\Master copy of project HR management\project hr management\hrm27112017\hrManage\hrManage\obj\Debug\hrManage.pdb
+H:\Ealius\Office Management System Project\New folder\hrManage\hrManage\bin\hrManage.dll.config
+H:\Ealius\Office Management System Project\New folder\hrManage\hrManage\bin\hrManage.dll
+H:\Ealius\Office Management System Project\New folder\hrManage\hrManage\bin\hrManage.pdb
+H:\Ealius\Office Management System Project\New folder\hrManage\hrManage\obj\Debug\hrManage.dll
+H:\Ealius\Office Management System Project\New folder\hrManage\hrManage\obj\Debug\hrManage.pdb
+H:\Ealius\Office Management System Project\New folder\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+G:\BCC project\sakib\BULBUL VAI PROJECT-14-12-2017\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+G:\BCC project\sakib\BULBUL VAI PROJECT-14-12-2017\hrManage\hrManage\obj\Debug\hrManage.dll
+G:\BCC project\sakib\BULBUL VAI PROJECT-14-12-2017\hrManage\hrManage\obj\Debug\hrManage.pdb
+G:\BCC project\sakib\BULBUL VAI PROJECT-21-12-2017\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+G:\BCC project\sakib\BULBUL VAI PROJECT-21-12-2017\hrManage\hrManage\obj\Debug\hrManage.dll
+G:\BCC project\sakib\BULBUL VAI PROJECT-21-12-2017\hrManage\hrManage\obj\Debug\hrManage.pdb
+G:\BCC project\sakib\BULBUL VAI PROJECT-21-12-2017\hrManage\hrManage\bin\hrManage.dll.config
+G:\BCC project\sakib\BULBUL VAI PROJECT-21-12-2017\hrManage\hrManage\bin\hrManage.dll
+G:\BCC project\sakib\BULBUL VAI PROJECT-21-12-2017\hrManage\hrManage\bin\hrManage.pdb
+E:\BCC project\BULBUL VAI PROJECT-24-12-2017\hrManage\hrManage\bin\hrManage.dll.config
+E:\BCC project\BULBUL VAI PROJECT-24-12-2017\hrManage\hrManage\bin\hrManage.dll
+E:\BCC project\BULBUL VAI PROJECT-24-12-2017\hrManage\hrManage\bin\hrManage.pdb
+E:\BCC project\BULBUL VAI PROJECT-24-12-2017\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+E:\BCC project\BULBUL VAI PROJECT-24-12-2017\hrManage\hrManage\obj\Debug\hrManage.dll
+E:\BCC project\BULBUL VAI PROJECT-24-12-2017\hrManage\hrManage\obj\Debug\hrManage.pdb
+E:\BCC project\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll.config
+E:\BCC project\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll
+E:\BCC project\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.pdb
+E:\BCC project\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+E:\BCC project\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.dll
+E:\BCC project\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.pdb
+F:\hr\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+F:\hr\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.dll
+F:\hr\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll.config
+F:\hr\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll
+F:\hr\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.pdb
+F:\hr\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.pdb
+E:\BCC project\new\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll.config
+E:\BCC project\new\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll
+E:\BCC project\new\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.pdb
+E:\BCC project\new\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.csprojResolveAssemblyReference.cache
+E:\BCC project\new\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.dll
+E:\BCC project\new\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.pdb
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll.config
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.dll
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\bin\hrManage.pdb
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.csproj.AssemblyReference.cache
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.csproj.CoreCompileInputs.cache
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.dll
+E:\BJET\Projects\final project files for presentation\final project files for presentation\BULBUL VAI PROJECT-18-1-2018\hrManage\hrManage\obj\Debug\hrManage.pdb
