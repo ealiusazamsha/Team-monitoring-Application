@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D3EA988-447B-454E-94C3-7B536E45789D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>hrManage</RootNamespace>
+    <AssemblyName>hrManage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.aspx" />
+    <Content Include="content\about.html" />
+    <Content Include="content\about.png" />
+    <Content Include="content\assets\css\animate.min.css" />
+    <Content Include="content\assets\css\bootstrap.min.css" />
+    <Content Include="content\assets\css\demo.css" />
+    <Content Include="content\assets\css\light-bootstrap-dashboard.css" />
+    <Content Include="content\assets\css\pe-icon-7-stroke.css" />
+    <Content Include="content\assets\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="content\assets\img\default-avatar.png" />
+    <Content Include="content\assets\img\faces\face-0.jpg" />
+    <Content Include="content\assets\img\faces\face-1.jpg" />
+    <Content Include="content\assets\img\faces\face-2.jpg" />
+    <Content Include="content\assets\img\faces\face-3.jpg" />
+    <Content Include="content\assets\img\faces\face-4.jpg" />
+    <Content Include="content\assets\img\faces\face-5.jpg" />
+    <Content Include="content\assets\img\faces\face-6.jpg" />
+    <Content Include="content\assets\img\faces\face-7.jpg" />
+    <Content Include="content\assets\img\faces\tim_vector.jpe" />
+    <Content Include="content\assets\img\favicon.ico" />
+    <Content Include="content\assets\img\full-screen-image-3.jpg" />
+    <Content Include="content\assets\img\loading-bubbles.svg" />
+    <Content Include="content\assets\img\mask.png" />
+    <Content Include="content\assets\img\new_logo.png" />
+    <Content Include="content\assets\img\sidebar-1.jpg" />
+    <Content Include="content\assets\img\sidebar-2.jpg" />
+    <Content Include="content\assets\img\sidebar-3.jpg" />
+    <Content Include="content\assets\img\sidebar-4.jpg" />
+    <Content Include="content\assets\img\sidebar-5.jpg" />
+    <Content Include="content\assets\img\tim_80x80.png" />
+    <Content Include="content\assets\js\bootstrap-notify.js" />
+    <Content Include="content\assets\js\bootstrap-select.js" />
+    <Content Include="content\assets\js\bootstrap.min.js" />
+    <Content Include="content\assets\js\chartist.min.js" />
+    <Content Include="content\assets\js\demo.js" />
+    <Content Include="content\assets\js\jquery.3.2.1.min.js" />
+    <Content Include="content\assets\js\light-bootstrap-dashboard.js" />
+    <Content Include="content\banner-04.jpg" />
+    <Content Include="content\brg.jpg" />
+    <Content Include="content\brg.png" />
+    <Content Include="content\career_banner.png" />
+    <Content Include="content\contact.html" />
+    <Content Include="content\contact_banner.png" />
+    <Content Include="content\ez.html" />
+    <Content Include="content\ez_files\animate.min.css" />
+    <Content Include="content\ez_files\animations.min.css" />
+    <Content Include="content\ez_files\Board-Meeting-Room-1024x576.jpg" />
+    <Content Include="content\ez_files\boxed-compact.css" />
+    <Content Include="content\ez_files\cb_scout5.png" />
+    <Content Include="content\ez_files\cropped-business-technology-header.jpg" />
+    <Content Include="content\ez_files\elementor-icons.min.css" />
+    <Content Include="content\ez_files\FnA_HD-1.jpg" />
+    <Content Include="content\ez_files\font-awesome.min%281%29.css" />
+    <Content Include="content\ez_files\font-awesome.min%282%29.css" />
+    <Content Include="content\ez_files\font-awesome.min.css" />
+    <Content Include="content\ez_files\frontend.min.css" />
+    <Content Include="content\ez_files\global.css" />
+    <Content Include="content\ez_files\google4.png" />
+    <Content Include="content\ez_files\imgs8.png" />
+    <Content Include="content\ez_files\lightbox.css" />
+    <Content Include="content\ez_files\logo-2.png" />
+    <Content Include="content\ez_files\mapcnt6.png" />
+    <Content Include="content\ez_files\maxresdefault-1.jpg" />
+    <Content Include="content\ez_files\media-queries.css" />
+    <Content Include="content\ez_files\organogram.png" />
+    <Content Include="content\ez_files\post-50.css" />
+    <Content Include="content\ez_files\saved_resource%281%29.html" />
+    <Content Include="content\ez_files\saved_resource.html" />
+    <Content Include="content\ez_files\skills-1024x407.png" />
+    <Content Include="content\ez_files\style.css" />
+    <Content Include="content\ez_files\sv9.png" />
+    <Content Include="content\ez_files\themify-builder-50-generated.css" />
+    <Content Include="content\ez_files\themify-builder-style.css" />
+    <Content Include="content\ez_files\themify-customizer.css" />
+    <Content Include="content\ez_files\themify-icons.css" />
+    <Content Include="content\ez_files\themify.framework.css" />
+    <Content Include="content\ez_files\tmapctrl.png" />
+    <Content Include="content\ez_files\tmapctrl4.png" />
+    <Content Include="content\ez_files\wppb.css" />
+    <Content Include="content\index.html" />
+    <Content Include="content\login\css\bootstrap.min.css" />
+    <Content Include="content\login\css\style.css" />
+    <Content Include="content\login\fonts\A Gentle Touch.svg" />
+    <Content Include="content\login\fonts\fontawesome-webfont.svg" />
+    <Content Include="content\login\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="content\login\js\bootstrap.min.js" />
+    <Content Include="content\login\js\jquery-3.2.1.min.js" />
+    <Content Include="content\main_banner.png" />
+    <Content Include="content\services.html" />
+    <Content Include="content\css\sty.css" />
+    <Content Include="Department.aspx" />
+    <Content Include="list.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="site.Master" />
+    <Content Include="content\ez_files\backstretch.themify-version.js.download" />
+    <Content Include="content\ez_files\comment-reply.min.js.download" />
+    <Content Include="content\ez_files\common.js.download" />
+    <Content Include="content\ez_files\controls.js.download" />
+    <Content Include="content\ez_files\css" />
+    <Content Include="content\ez_files\css%281%29" />
+    <Content Include="content\ez_files\css%282%29" />
+    <Content Include="content\ez_files\css%283%29" />
+    <Content Include="content\ez_files\css%284%29" />
+    <Content Include="content\ez_files\frontend.min.js.download" />
+    <Content Include="content\ez_files\geocoder.js.download" />
+    <Content Include="content\ez_files\infowindow.js.download" />
+    <Content Include="content\ez_files\jquery-migrate.min.js.download" />
+    <Content Include="content\ez_files\jquery-numerator.min.js.download" />
+    <Content Include="content\ez_files\jquery.isotope.min.js.download" />
+    <Content Include="content\ez_files\jquery.js.download" />
+    <Content Include="content\ez_files\jquery.nicescroll.js.download" />
+    <Content Include="content\ez_files\js" />
+    <Content Include="content\ez_files\lightbox.js.download" />
+    <Content Include="content\ez_files\main.js.download" />
+    <Content Include="content\ez_files\map.js.download" />
+    <Content Include="content\ez_files\marker.js.download" />
+    <Content Include="content\ez_files\onion.js.download" />
+    <Content Include="content\ez_files\slick.min.js.download" />
+    <Content Include="content\ez_files\stats.js.download" />
+    <Content Include="content\ez_files\themify.builder.script.js.download" />
+    <Content Include="content\ez_files\themify.gallery.js.download" />
+    <Content Include="content\ez_files\themify.mega-menu.js.download" />
+    <Content Include="content\ez_files\themify.script.js.download" />
+    <Content Include="content\ez_files\themify.scroll-highlight.js.download" />
+    <Content Include="content\ez_files\themify.sidemenu.js.download" />
+    <Content Include="content\ez_files\util.js.download" />
+    <Content Include="content\ez_files\vt" />
+    <Content Include="content\ez_files\vt%281%29" />
+    <Content Include="content\ez_files\vt%2810%29" />
+    <Content Include="content\ez_files\vt%2811%29" />
+    <Content Include="content\ez_files\vt%2812%29" />
+    <Content Include="content\ez_files\vt%2813%29" />
+    <Content Include="content\ez_files\vt%2814%29" />
+    <Content Include="content\ez_files\vt%2815%29" />
+    <Content Include="content\ez_files\vt%2816%29" />
+    <Content Include="content\ez_files\vt%2817%29" />
+    <Content Include="content\ez_files\vt%282%29" />
+    <Content Include="content\ez_files\vt%283%29" />
+    <Content Include="content\ez_files\vt%284%29" />
+    <Content Include="content\ez_files\vt%285%29" />
+    <Content Include="content\ez_files\vt%286%29" />
+    <Content Include="content\ez_files\vt%287%29" />
+    <Content Include="content\ez_files\vt%288%29" />
+    <Content Include="content\ez_files\vt%289%29" />
+    <Content Include="content\ez_files\waypoints.min.js.download" />
+    <Content Include="content\ez_files\wow.js.download" />
+    <Content Include="content\ez_files\wp-embed.min.js.download" />
+    <Content Include="content\ez_files\wp-emoji-release.min.js.download" />
+    <Content Include="content\ez_files\wppb_animate.js.download" />
+    <Content Include="content\assets\fonts\Pe-icon-7-stroke.eot" />
+    <Content Include="content\assets\fonts\Pe-icon-7-stroke.ttf" />
+    <Content Include="content\assets\fonts\Pe-icon-7-stroke.woff" />
+    <Content Include="content\assets\sass\lbd\mixins\_buttons.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_cards.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_chartist.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_icons.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_inputs.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_labels.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_morphing-buttons.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_navbars.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_social-buttons.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_tabs.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_transparency.scss" />
+    <Content Include="content\assets\sass\lbd\mixins\_vendor-prefixes.scss" />
+    <Content Include="content\assets\sass\lbd\_alerts.scss" />
+    <Content Include="content\assets\sass\lbd\_buttons.scss" />
+    <Content Include="content\assets\sass\lbd\_cards.scss" />
+    <Content Include="content\assets\sass\lbd\_chartist.scss" />
+    <Content Include="content\assets\sass\lbd\_checkbox-radio-switch.scss" />
+    <Content Include="content\assets\sass\lbd\_dropdown.scss" />
+    <Content Include="content\assets\sass\lbd\_footers.scss" />
+    <Content Include="content\assets\sass\lbd\_inputs.scss" />
+    <Content Include="content\assets\sass\lbd\_misc.scss" />
+    <Content Include="content\assets\sass\lbd\_mixins.scss" />
+    <Content Include="content\assets\sass\lbd\_navbars.scss" />
+    <Content Include="content\assets\sass\lbd\_responsive.scss" />
+    <Content Include="content\assets\sass\lbd\_sidebar-and-main-panel.scss" />
+    <Content Include="content\assets\sass\lbd\_tables.scss" />
+    <Content Include="content\assets\sass\lbd\_typography.scss" />
+    <Content Include="content\assets\sass\lbd\_variables.scss" />
+    <Content Include="content\assets\sass\light-bootstrap-dashboard.scss" />
+    <Content Include="content\login\fonts\A Gentle Touch.eot" />
+    <Content Include="content\login\fonts\A Gentle Touch.woff" />
+    <Content Include="content\login\fonts\A Gentle Touch.woff2" />
+    <Content Include="content\login\fonts\athelas-regular-webfont.ttf" />
+    <Content Include="content\login\fonts\athelas-regular-webfont.woff" />
+    <Content Include="content\login\fonts\athelas-regular-webfont.woff2" />
+    <Content Include="content\login\fonts\fontawesome-webfont.eot" />
+    <Content Include="content\login\fonts\fontawesome-webfont.ttf" />
+    <Content Include="content\login\fonts\fontawesome-webfont.woff" />
+    <Content Include="content\login\fonts\fontawesome-webfont.woff2" />
+    <Content Include="content\login\fonts\FontAwesome.otf" />
+    <Content Include="content\login\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\login\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="content\login\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="content\login\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\css\bootstrap.min.css" />
+    <Content Include="default.aspx" />
+    <Content Include="registration.aspx" />
+    <Content Include="Task_Entry.aspx" />
+    <Content Include="user.aspx" />
+    <Content Include="usercomment.aspx" />
+    <Content Include="userviewtsk.aspx" />
+    <Content Include="viewdpt.aspx" />
+    <Content Include="viewtask.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Department.aspx.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Department.aspx.designer.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="list.aspx.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="list.aspx.designer.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site.Master.cs">
+      <DependentUpon>site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site.Master.designer.cs">
+      <DependentUpon>site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Task_Entry.aspx.cs">
+      <DependentUpon>Task_Entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Task_Entry.aspx.designer.cs">
+      <DependentUpon>Task_Entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user.aspx.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user.aspx.designer.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usercomment.aspx.cs">
+      <DependentUpon>usercomment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercomment.aspx.designer.cs">
+      <DependentUpon>usercomment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userviewtsk.aspx.cs">
+      <DependentUpon>userviewtsk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userviewtsk.aspx.designer.cs">
+      <DependentUpon>userviewtsk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewdpt.aspx.cs">
+      <DependentUpon>viewdpt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewdpt.aspx.designer.cs">
+      <DependentUpon>viewdpt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewtask.aspx.cs">
+      <DependentUpon>viewtask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewtask.aspx.designer.cs">
+      <DependentUpon>viewtask.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2013</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2013/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

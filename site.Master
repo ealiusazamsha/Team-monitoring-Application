@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="hrManage.site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home Page</title>
+    <link href="content/css/animate.min.css" rel="stylesheet" />
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'/>
+    <link href="content/css/templatemo-style.css" rel="stylesheet" />
+    <script src="content/js/jquery.js"></script>
+    <script src="content/js/bootstrap.min.js"></script>
+    <script src="content/js/jquery.singlePageNav.min.js"></script>
+    <script src="content/js/typed.js"></script>
+    <script src="content/js/wow.min.js"></script>
+    <script src="content/js/custom.js"></script>
+    <asp:ContentPlaceHolder ID="headPlaceHoldar" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+    <!-- start preloader -->
+    <div class="preloader">
+        <div class="sk-spinner sk-spinner-wave">
+            <div class="sk-rect1"></div>
+            <div class="sk-rect2"></div>
+            <div class="sk-rect3"></div>
+            <div class="sk-rect4"></div>
+            <div class="sk-rect5"></div>
+        </div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <p><i class="fa fa-phone"></i><span>Phone</span>+880 1676 085809</p>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <p><i class="fa fa-envelope-o"></i><span>Email</span><a href="mailto:ealiusazamsha@gmail.com ">ealiusazamsha@gmail.com</a></p>
+                </div>
+                <div class="col-md-5 col-sm-4 col-xs-12">
+                    <ul class="social-icon">
+                        <li><span>Meet us on</span></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-youtube"></a></li>
+
+
+                        
+                        <li><a href="login.aspx" runat="server">Log in</a></li>
+
+
+
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start navigation -->
+    <nav class="navbar navbar-default templatemo-nav" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">EZCS</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    
+                    <li><a href="default.aspx#top">HOME</a></li>
+                    <li><a href="default.aspx#about">ABOUT</a></li>
+                    <li><a href="default.aspx#team">TEAM</a></li>
+                    <li><a href="default.aspx#service">SERVICE</a></li>
+                    <li><a href="default.aspx#portfolio">PORTFOLIO</a></li>
+                    <li><a href="default.aspx#contact">CONTACT</a></li>
+                </ul>
+
+
+                </div>
+
+            </div>
+       
+    </nav>
+    
+        <!-- end navigation -->
+    <div class="">
+        <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <asp:ContentPlaceHolder ID="foterPlaceHolder1" runat="server">
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                            HR Task Management System &copy; Copyright 2017. Designed By Md Ealius Azam Sha
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+    </asp:ContentPlaceHolder>
+</body>
+</html>
