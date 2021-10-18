@@ -1,0 +1,39 @@
+.main ul li{
+	list-style-type:none;
+	float:left;
+	
+}
+
+.main ul li a:link, a:visited{
+	padding:8px 70px;
+	background-color: rgb(200,200,200);
+	text-decoration:none;
+	color:black;
+	border-left:2px solid white;
+	font-size:25px;
+	
+}
+
+.main ul li a:hover, a:active{
+	background-color:yellowgreen;
+	color:white;
+	
+}
+
+h1 {
+	color: violet;
+	padding:20px;
+	font-size:35px;
+}
+
+body {
+	background-color:lightblue;
+}
+
+#find {
+	text-align:right;
+	padding:15px;
+}
+body {
+    background-image: url("brg.png");
+	repeat:none;
